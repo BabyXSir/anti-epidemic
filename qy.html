@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 企业文化轮播图 */
+.qywh {
+  width: 100%;
+  height: 690px;
+  overflow: hidden;
+  margin-top: 169px;
+}
+
+.qywh-box {
+  width: 730px;
+  height: 644px;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  background-color: #fff;
+}
+
+ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 455px;
+  width: calc(730px * 4);
+}
+
+ul li {
+  float: left;
+  width: 730px;
+  height: 414px;
+}
+
+.qywh-box1 img {
+  width: 730px;
+  height: 414px;
+}
+
+.qywh-box1-bottom {
+  width: 730px;
+  height: 220px;
+}
+
+.qywh-box1-bottom p {
+  width: 740px;
+  height: 108px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.qywh-box1-bottom h3 {
+  width: 733px;
+  height: 54px;
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  margin: 18px 0px 18px;
+}
+.qywh a{
+  display: inline-block;
+  width: 91px;
+  height: 52px;
+}
+.prev,
+.next1 {
+    position: absolute;
+    top: 67%;
+    width: 22px;
+    height: 32px;
+    display: inline-block;
+    background-size: 22px 32px;
+}
+.prev {
+    left: 0;
+    background-image: url("../images/qywh-button1.png");
+}
+
+.next1 {
+    right: 0;
+    background-image: url("../images/qywh-button2.png");
+  }
+
+.next1:hover {
+    right: 0;
+    background-image: url("../images/qywh-button3.png");
+}
+
+.qywh {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  margin-top: 58px;
+  overflow: hidden;
+}
+/* 左边 */
+.qywh-left {
+  width: 475px;
+  height: 555px;
+  float: left;
+}
+.qywh-left h3 {
+  color: #333333;
+  font-size: 48px;
+  width: 192px;
+  height: 56px;
+  margin-bottom: 68px;
+}
+.qywh-left p {
+  font-size: 22px;
+  color: #333333;
+  line-height: 1.5;
+}
+/* 右边 */
+.qywh-right {
+  float: right;
+  width: 730px;
+  height: 680px;
+}
+.qywh-right img {
+  width: 730px;
+  height: 414px;
+}
+.qywh-bottom {
+  width: 730px;
+  height: 255px;
+  padding: 0px 62px;
+  background: #ffffff;
+}
+.qywh-right h3 {
+  position: relative;
+  font-size: 30px;
+  width: 607px;
+  line-height: 54px;
+  height: 54px;
+  text-align: center;
+  color: #333333;
+  margin: 10px 0px 18px;
+}
+.qywh-bottom img {
+  position: absolute;
+  width: 22px;
+  height: 32px;
+}
+.qywh-bottom .lleft {
+  left: 0;
+  top: 5px;
+}
+
+.qywh-bottom .rright {
+  right: 0;
+  top: 8px;
+}
+.qywh-bottom p {
+  width: 607px;
+  height: 144px;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+  line-height: 1.7;
+}
+  </style>
+</head>
+<body>
+     <!-- 企业文化 -->
+     <div class="qywh">
+      <div class="container">
+          <!-- 左边 -->
+          <div class="qywh-left">
+              <h3>企业文化</h3>
+              <p>字节范是字节跳动企业文化的重要组成部分，是我们共同认可的行为准则。</p>
+          </div>
+          <!-- 大盒子 -->
+          <div class="qywh-box">
+              <!-- 企业文化1 -->
+              <ul>
+                  <li>
+                      <div class="qywh-box1">
+                          <img src="./images/qywh1 (2).jpg" alt="">
+                          <div class="qywh-box1-bottom">
+                              <h3>追求极致</h3>
+                              <p>
+                                  不断提高要求，延迟满足感<br>
+                                  在更大范围里找最优解，不放过问题，思考本质<br>
+                                  持续学习和成长
+                              </p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="qywh-box1">
+                          <img src="./images/qywh2.jpg" alt="">
+                          <div class="qywh-box1-bottom">
+                              <h3>务实敢为</h3>
+                              <p>
+                                  直接体验，深入事实<br>
+                                  不自嗨，注重效果，能突破有担当，打破定式<br>
+                                  尝试多种可能，快速迭代
+                              </p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="qywh-box1">
+                          <img src="./images/qywh3.jpg" alt="">
+                          <div class="qywh-box1-bottom">
+                              <h3>开放谦逊</h3>
+                              <p>
+                                  内心阳光，信任伙伴<br>
+                                  乐于助人和求助，合作成大事<br>
+                                  对外敏锐谦虚，ego小，听得进意见<br>
+                                  格局大，上个台阶想问题
+                              </p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="qywh-box1">
+                          <div class="qywh-box1-bottom">
+                              <img src="./images/qywh4.jpg" alt="">
+                              <h3>坦诚清晰</h3>
+                              <p>
+                                  敢当面表达真实想法<br>
+                                  能承认错误，不装不爱面子<br>
+                                  实事求是，暴露问题，反对“向上管理”<br>
+                                  准确、简洁、直接，有条理有重点
+                              </p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="qywh-box1">
+                          <div class="qywh-box1-bottom">
+                              <img src="./images/qywh5.jpg" alt="">
+                              <h3>始终创业</h3>
+                              <p>
+                                  自驱，不设边界，不怕麻烦<br>
+                                  有韧性，直面现实并改变它<br>
+                                  拥抱变化，对不确定性保持乐观<br>
+                                  始终像公司创业第一天那样思考
+                              </p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="qywh-box1">
+                          <div class="qywh-box1-bottom">
+                              <img src="./images/qywh6.jpg" alt="">
+                              <h3>多元兼容</h3>
+                              <p>
+                                  理解并重视差异和多元，建立火星视角<br>
+                                  打造多元化的团队，欢迎不同背景的人才，激发潜力<br>
+                                  鼓励人人参与，集思广益，主动用不同的想法来挑战自己<br>
+                                  创造海纳百川，兼容友好的工作环境
+                              </p>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+              <a href="javascript:;"><i class="prev"></i></a>
+              <a href="javascript:;"><i class="next1"></i></a>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
